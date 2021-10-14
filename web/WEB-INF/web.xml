@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    
+    <error-page>
+        <error-code>404</error-code>
+        <location>/404.jsp</location>
+    </error-page>
+    
+    
+    <servlet>
+        <servlet-name>getCal_Data_Servlet</servlet-name>
+        <servlet-class>controladores.getCal_Data_Servlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>store_Cal_Data</servlet-name>
+        <servlet-class>controladores.store_Cal_Data_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getCal_Data_Servlet</servlet-name>
+        <url-pattern>/getCal_Data</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>store_Cal_Data</servlet-name>
+        <url-pattern>/store_Cal_Data</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
