@@ -14,6 +14,10 @@ Registros de actividades que se tengan que cumplir durante el año
 
 # Login
 ![alt text](https://i.ibb.co/DfRzzdW/Login.png)
+#### Usuario
+> ***72314652***
+#### Contraseña
+> ***123***
 
 # Inicio
 ![alt text](https://i.ibb.co/hMN9pXt/Inicio.png)
@@ -46,4 +50,3 @@ sistema-actividades
 MIT
 
 **Free Software!**
-
