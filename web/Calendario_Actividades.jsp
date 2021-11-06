@@ -62,7 +62,7 @@
             margin: 10px 0;
             padding: 7px 12px;
             border: none;
-            border-radius: 
+            /*border-radius:*/ 
         }
         
         .buscaDia {
